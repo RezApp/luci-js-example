@@ -5,7 +5,7 @@
         render: function() {
             var m, s, o;
 
-            m = new form.Map('helloworld', _('Hello World JS'));
+            m = new form.Map('helloworld', _('JS Example'));
 
             s = m.section(form.Section('general', _('General Settings')));
             s.tab('general', _('General Settings'));
