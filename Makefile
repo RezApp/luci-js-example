@@ -7,4 +7,5 @@ PKG_RELEASE:=1
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
-# call BuildPackage - OpenWrt buildroot signature
+YOUR_FEED_NAME:=$(TOPDIR)/feeds/luci_js_example
+$(eval $(call AddFeed,your_feed_name,$(YOUR_FEED_NAME)))
